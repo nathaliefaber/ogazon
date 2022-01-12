@@ -1,10 +1,54 @@
 // Specific CSS for your home-page
+
 header {
    background-color: #F2F0EB;
-   font-family: "DMSerif";
+   font-family: "Archivo";
+   font-size: 70px;
 }
 
 body {
   background-color: #F2F0EB;
-   font-family: "Univers";
+  font-family: "Archivo";
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.bio {
+  background-color: #F2F0EB;
+  font-family: "Archivo";
+  font-weight: lighter;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-bottom: 1rem;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+.banner {
+  background: asset_url('muro1.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 300px;
+}
+
+
+.links {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-size: 40px;
 }
