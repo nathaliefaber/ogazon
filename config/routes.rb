@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   get '/booking', to: "pages#booking"
   get '/music', to: "pages#music"
   get '/photography', to: "pages#photography"
+  get '/home', to: "pages#home"
 
 end
