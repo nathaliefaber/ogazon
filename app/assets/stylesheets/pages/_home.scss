@@ -4,7 +4,9 @@ header {
    background-color: #F2F0EB;
    font-family: "Archivo";
    font-size: 70px;
-}
+   text-align: center;
+  }
+
 
 body {
   background-color: #F2F0EB;
@@ -19,16 +21,22 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: max-content;
-  padding: 300px;
-
+  padding-bottom: 255px;
 }
+
+.banner h1  {
+   font-family: "Archivo";
+   font-size: 70px;
+   text-align: center;
+   margin-top: 140px;
+   margin-bottom: 30px;
+  }
 
 
 .links {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 20px;
 }
 
