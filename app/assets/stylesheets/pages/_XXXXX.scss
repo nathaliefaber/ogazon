@@ -1,0 +1,119 @@
+HOME
+
+// Specific CSS for your home-page
+
+header {
+   background-color: #F2F0EB;
+   font-family: "Archivo";
+   font-size: 70px;
+   text-align: center;
+  }
+
+
+body {
+  background-color: #F2F0EB;
+  font-family: "Archivo";
+  font-weight: lighter;
+  box-sizing: border-box;
+}
+
+
+.banner {
+  background: asset_url('muro1.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 200px;
+  height: 100%;
+}
+
+.banner h1  {
+   font-family: "Archivo";
+   font-size: 70px;
+   text-align: center;
+   margin-top: 140px;
+   margin-bottom: 30px;
+  }
+
+
+.links {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+
+
+ABOUT
+
+
+header {
+   background-color: #F2F0EB;
+   font-family: "Archivo";
+   font-size: 70px;
+}
+
+body {
+  background-color: #F2F0EB;
+  font-family: "Archivo";
+  font-weight: lighter;
+}
+
+.banner-bio {
+  background: asset_url('Oggy_presspic.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding: 300px;
+  height: 100%;
+}
+
+p {
+  padding-top: 100px;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  padding: 40px 40px;
+  color: white;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
+#link {
+  color:black;
+}
+
+
+MUSIC
+
+.banner-music {
+  background-image: url("https://app/assets/images/Ogazón_PressPic_6.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
